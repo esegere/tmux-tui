@@ -21,6 +21,8 @@ $ git clone git@github.com:stoeffel/tmux-tui.git
 $ cabal install
 ```
 
+Last compiled using GCH version 9.2.7 and cabal version 3.6.2.0
+
 I recommend setting up a keybinding to get to the TUI from anywhere.
 
 `bind -n C-h new-window -n tmux-tui -c "#{pane_current_path}" "tmux-tui"`
